@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtvAw.ttf) format('truetype');
+}
+.google .preview {
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid #dadce0;
+  background-color: #fff !important;
+}
+.google .preview .content .site-link {
+  color: #202124 !important;
+  font-size: 14px !important;
+  max-width: 200px !important;
+  display: block !important;
+  line-height: 20px !important;
+  white-space: nowrap !important;
+  font-family: arial, sans-serif !important;
+}
+.google .preview .content .post-link {
+  color: #4d5156 !important;
+  font-size: 12px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: 200px !important;
+  font-family: arial, sans-serif !important;
+}
+.google .preview .content .title {
+  font-size: 20px !important;
+  line-height: 26px !important;
+  padding-top: 0px !important;
+  margin-bottom: 0px !important;
+  color: #1a0dab !important;
+  font-family: arial, sans-serif !important;
+  width: 100% !important;
+  -webkit-line-clamp: 1 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+}
+.google .preview .content .description {
+  color: #4d5156;
+  font-family: arial, sans-serif !important;
+  -webkit-line-clamp: 2 !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  font-size: 14px !important;
+  line-height: 1.58 !important;
+}
+.facebook .preview {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 4px rgba(0, 0, 0, 0.1) !important;
+  background-color: #fff !important;
+}
+.facebook .preview figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  aspect-ratio: 1.91 / 1 !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.facebook .preview figure img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+.facebook .preview .content {
+  padding: 10px 12px !important;
+  background: #F0F2F5 !important;
+}
+.facebook .preview .content .title {
+  max-width: max-content !important;
+  text-decoration: none !important;
+  transition: color 0.1s ease-in-out !important;
+  font-family: 'Roboto', serif !important;
+  font-size: 18px !important;
+  display: block !important;
+  line-height: 22px !important;
+  width: auto !important;
+  margin-bottom: 5px !important;
+}
+.facebook .preview .content .description {
+  display: block !important;
+  font-family: Roboto, sans-serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+  font-size: 13px !important;
+  color: #616770 !important;
+  margin-top: 3px !important;
+}
+.facebook .preview .content .seo-link {
+  color: #65676B !important;
+  font-family: 'Roboto', serif !important;
+  font-size: 14px !important;
+  display: block !important;
+  line-height: 18px !important;
+  width: auto !important;
+  text-decoration: none !important;
+  transition: color 0.1s ease-in-out !important;
+  text-transform: uppercase !important;
+  -webkit-line-clamp: 2 !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+.twitter .preview {
+  border: 1px solid #cfd9de !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+.twitter .preview figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  aspect-ratio: 1.912 / 1 !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.twitter .preview figure img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+.twitter .preview .content {
+  padding: 12px !important;
+}
+.twitter .preview .content .title {
+  text-decoration: none !important;
+  transition: color 0.1s ease-in-out !important;
+  font-family: 'Roboto', serif !important;
+  font-size: 15px !important;
+  font-weight: 400;
+  display: block !important;
+  line-height: 22px !important;
+  width: auto !important;
+  margin-bottom: 5px !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+.twitter .preview .content .description {
+  display: block !important;
+  font-family: Roboto, sans-serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+  font-size: 15px !important;
+  margin-top: 3px !important;
+  -webkit-line-clamp: 2 !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  color: #536471 !important;
+}
+.twitter .preview .content .link {
+  color: #536471 !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  font-family: 'Roboto', serif !important;
+  display: block !important;
+  line-height: 20px !important;
+  width: auto !important;
+  text-decoration: none !important;
+  text-transform: lowercase !important;
+  -webkit-line-clamp: 2 !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+.title-progress-bar,
+.description-progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.title-progress-bar .progress-bar,
+.description-progress-bar .progress-bar {
+  width: 100%;
+  height: 4px;
+  background-color: #E0E0E0;
+  border-radius: 2px;
+  position: relative;
+}
+.title-progress-bar .progress-bar .progress,
+.description-progress-bar .progress-bar .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #1A73E8;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=seo_preview.css.map */

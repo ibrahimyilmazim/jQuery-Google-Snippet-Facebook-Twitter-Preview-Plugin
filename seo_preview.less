@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+.google {
+  & .preview {
+    box-sizing: border-box;
+    padding: 16px;
+    border: 1px solid #dadce0;
+    background-color: #fff !important;
+    & .content {
+      & .site-link {
+        color: #202124 !important;
+        font-size: 14px !important;
+        max-width: 200px !important;
+        display: block !important;
+        line-height: 20px !important;
+        white-space: nowrap !important;
+        font-family: arial, sans-serif !important;
+      }
+      & .post-link {
+        color: #4d5156 !important;
+        font-size: 12px !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        max-width: 200px !important;
+        font-family: arial, sans-serif !important;
+      }
+      & .title {
+        font-size: 20px !important;
+        line-height: 26px !important;
+        padding-top: 0px !important;
+        margin-bottom: 0px !important;
+        color: #1a0dab !important;
+        font-family: arial, sans-serif !important;
+        width: 100% !important;
+        -webkit-line-clamp: 1 !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical !important;
+      }
+      & .description {
+        color: #4d5156;
+        font-family: arial, sans-serif !important;
+        -webkit-line-clamp: 2 !important;
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+        font-size: 14px !important;
+        line-height: 1.58 !important;
+      }
+    }
+
+  }
+
+}
+.facebook {
+  .preview {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 1px 4px rgba(0, 0, 0, .1) !important;
+    background-color: #fff !important;
+    & figure {
+      margin: 0 !important;
+      padding: 0 !important;
+      aspect-ratio: 1.91 / 1 !important;
+      background-size: cover !important;
+      background-position: center !important;
+      & img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+      }
+    }
+    & .content {
+      padding: 10px 12px !important;
+      background: #F0F2F5 !important;
+      & .title {
+        max-width: max-content !important;
+        text-decoration: none !important;
+        transition: color .1s ease-in-out !important;
+        font-family: 'Roboto', serif !important;
+        font-size: 18px !important;
+        display: block !important;
+        line-height: 22px !important;
+        width: auto !important;
+        margin-bottom: 5px !important;
+      }
+      & .description {
+        display: block !important;
+        font-family: Roboto, sans-serif !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        line-height: normal !important;
+        font-size: 13px !important;
+        color: rgb(97, 103, 112) !important;
+        margin-top: 3px !important;
+      }
+      & .seo-link {
+        color: #65676B !important;
+        font-family: 'Roboto', serif !important;
+        font-size: 14px !important;
+        display: block !important;
+        line-height: 18px !important;
+        width: auto !important;
+        text-decoration: none !important;
+        transition: color .1s ease-in-out !important;
+        text-transform: uppercase !important;
+        -webkit-line-clamp: 2 !important;
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+      }
+    }
+  }
+
+}
+.twitter {
+  & .preview {
+    border:1px solid rgb(207, 217, 222) !important;
+    border-radius: 16px !important;
+    overflow:hidden !important;
+    figure {
+      margin: 0 !important;
+      padding: 0 !important;
+      aspect-ratio: 1.912 / 1 !important;
+      background-size: cover !important;
+      background-position: center !important;
+      & img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+      }
+    }
+    & .content {
+      padding: 12px !important;
+      & .title {
+        text-decoration: none !important;
+        transition: color .1s ease-in-out !important;
+        font-family: 'Roboto', serif !important;
+        font-size: 15px !important;
+        font-weight: 400;
+        display: block !important;
+        line-height: 22px !important;
+        width: auto !important;
+        margin-bottom: 5px !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+        text-overflow: ellipsis !important;
+        white-space: nowrap !important;
+      }
+      & .description {
+        display: block !important;
+        font-family: Roboto, sans-serif !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        line-height: normal !important;
+        font-size: 15px !important;
+        margin-top: 3px !important;
+        -webkit-line-clamp: 2 !important;
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+        color: rgb(83, 100, 113) !important;
+
+      }
+      & .link {
+        color: rgb(83, 100, 113) !important;
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        font-family: 'Roboto', serif !important;
+        display: block !important;
+        line-height: 20px !important;
+        width: auto !important;
+        text-decoration: none !important;
+        text-transform: lowercase !important;
+        -webkit-line-clamp: 2 !important;
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+      }
+    }
+  }
+
+}
+.title-progress-bar, .description-progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  & .progress-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #E0E0E0;
+    border-radius: 2px;
+    position: relative;
+    & .progress {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      background-color: #1A73E8;
+      border-radius: 2px;
+    }
+  }
+}
