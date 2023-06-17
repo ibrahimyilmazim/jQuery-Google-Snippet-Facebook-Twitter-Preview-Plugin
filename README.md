@@ -1,5 +1,5 @@
-# Seo_Preview
-jQuery Seo - Meta Graph Preview Plugin
+# Seo Meta Preview 
+## jQuery Seo - Meta Graph Preview Plugin
 The provided code is an HTML document that appears to be a form for managing SEO metadata (title, description, and image) for different languages and social media platforms (Google, Facebook, and Twitter). It includes Bootstrap CSS and jQuery libraries, as well as custom CSS and JavaScript files.
 
 The structure of the code consists of several sections for each platform and language combination, including:
