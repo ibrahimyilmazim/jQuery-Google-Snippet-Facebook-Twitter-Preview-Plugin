@@ -39,6 +39,11 @@
   border: 1px solid #dadce0;
   background-color: #fff !important;
 }
+.google .preview .content {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
 .google .preview .content .site-link {
   color: #202124 !important;
   font-size: 14px !important;
@@ -100,6 +105,7 @@
 .facebook .preview .content {
   padding: 10px 12px !important;
   background: #F0F2F5 !important;
+  margin: 0 !important;
 }
 .facebook .preview .content .title {
   max-width: max-content !important;
@@ -156,6 +162,7 @@
 }
 .twitter .preview .content {
   padding: 12px !important;
+  margin: 0 !important;
 }
 .twitter .preview .content .title {
   text-decoration: none !important;
