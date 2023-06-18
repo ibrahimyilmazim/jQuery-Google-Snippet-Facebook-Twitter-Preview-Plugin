@@ -4,8 +4,11 @@ $.fn.seoPreview = function(options) {
         languages: ['tr', 'en'],
         variables: {
             '%site_title%': 'Site İsmi',
+            '%site_title_en%': 'Site İsmi (İngilizce)',
             '%page_title%': 'Sayfa İsmi',
+            '%page_title_en%': 'Sayfa İsmi (İngilizce)',
             '%category_title%': 'Kategori İsmi',
+            '%category_title_en%': 'Kategori İsmi (İngilizce)',
             '%ayrac%': '|',
         },
         titleLimit: 60,
@@ -19,6 +22,7 @@ $.fn.seoPreview = function(options) {
 
         settings.platforms.forEach(function(platform) {
             settings.languages.forEach(function(language) {
+
                 var selectTitle = $('select[name="' + platform + '-type-title-' + language + '"]');
                 var selectDescription = $('select[name="' + platform + '-type-description-' + language + '"]');
                 var inputTitle = $('input[name="' + platform + '-title-' + language + '"]');
@@ -35,8 +39,8 @@ $.fn.seoPreview = function(options) {
                 selectTitle.on('change', function() {
                     var value = $(this).val();
                     var inputValue = inputTitle.val();
-                    inputTitle.val(inputValue + ' ' + value);
-                    inputTitleReal.val(inputValue + ' ' + value);
+                    inputTitle.val(inputValue + '' + value);
+                    inputTitleReal.val(inputValue + '' + value);
                     inputTitle.focus();
                     manipulateInput();
                 });
@@ -44,11 +48,13 @@ $.fn.seoPreview = function(options) {
                 inputTitle.on('input', function() {
                     var title = $(this).val();
 
+                    // input
                     for (var key in settings.variables) {
                         if (settings.variables.hasOwnProperty(key)) {
                             title = title.replace(new RegExp(key, 'g'), settings.variables[key]);
                         }
                     }
+
                     inputTitleReal.val(title);
                     var progress = Math.min((title.length / settings.titleLimit * 100), 100);
                     progressTitle.css('width', progress + '%');
